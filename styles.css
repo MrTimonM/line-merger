@@ -1,0 +1,95 @@
+/* Same styles as before with a minor addition for the delimiter section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2193b0;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #2193b0;
+}
+
+.delimiter-section {
+    margin-bottom: 20px;
+}
+
+.delimiter-section label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#delimiter {
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+#delimiter:focus {
+    border-color: #2193b0;
+}
+
+#combineBtn {
+    padding: 10px 20px;
+    background: #2193b0;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#combineBtn:hover {
+    background: #6dd5ed;
+}
+
+#result {
+    margin-top: 20px;
+    display: none;
+}
+
+#output {
+    height: 150px;
+    background: #f4f4f4;
+}

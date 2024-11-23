@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Merger with Delimiter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Line Merger Tool</h1>
+        <div class="boxes">
+            <textarea id="box1" placeholder="Enter EM:PASS"></textarea>
+            <textarea id="box2" placeholder="Enter Proxy"></textarea>
+        </div>
+        <div class="delimiter-section">
+            <label for="delimiter">Delimiter:</label>
+            <input type="text" id="delimiter" maxlength="1" placeholder="e.g., : | @">
+        </div>
+        <button id="combineBtn">Combine</button>
+        <div id="result">
+            <h2>Combined Output:</h2>
+            <textarea id="output" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
